@@ -7,12 +7,11 @@ body {
    font-family: Helvetica, Arial, sans-serif;
 }
 
-/*apply styles to <header>----------------------------------------------*/
+/*apply styles to <header>*/
 header {
     padding: 20px 35px;
     background-color: #39a6b2;
 }
-
 header h1 {
     font-weight: bold;
     font-size: 36px;
@@ -20,48 +19,64 @@ header h1 {
     margin: 0;
     display: inline;
 }
-
 header a {
     text-decoration: none;
     color: #fce138;
 }
-
 header nav {
     float:right;
     margin: 7px 0;
 }
-
 header nav ul li {
     display: inline;
 }
-
 header nav ul li {
     margin: 0 30px;
     font-weight: lighter;
     font-size: 22px;
 }
-/*HEADER FIN----------------------------------------------*/
 
-/*apply styles to <footer>----------------------------------------------*/
+/*apply styles to <footer>*/
 footer {
     background: #fce138;
     width: 100%;
     padding: 40px 35px;
 }
-
 footer h2 {
     display: inline;
     color: #024e76;
     font-size: 30px;
     margin: 0;
 }
-
 footer div {
     float: right;
     line-height: 1.5;
     text-align: right;
 }
-
 footer a {
     color: #024e76;
+}
+
+/*HERO*/
+section {
+    padding: 60px;
+}
+
+.hero {
+    background-image: url("../images/hero-bg.jpg");
+    height: 600px;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.hero-form{
+    background-color: #fce138;
+    color:#024e76;
+    width: 500px;
+    padding: 20px;
+    border: solid 3px #024e76;
+    position: absolute;
+    bottom: 120px;
+    right: 10px;
 }
